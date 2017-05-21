@@ -40,9 +40,9 @@ xscreensaver.passwd.thermometer.width:       8
 
 !URxvt.font: xft:Monospace:size=9
 !URxvt.boldFont: xft:Monospace:Bold:size=9
-URxvt.font: xft:Fira Mono:size=9
-URxvt.boldFont: xft:Fira Mono:Bold:size=9
-URxvt.letterSpace: -2
+URxvt.font: xft:Fira Mono:size=10
+URxvt.boldFont: xft:Fira Mono:Bold:size=10
+URxvt.letterSpace: -1
 ! Add fallback fonts as laid out in `man 1 urxvt` under "font:" in the RESOURCES section
 
 ! Window size and position
@@ -84,8 +84,8 @@ URxvt.iso14755: False
 URxvt.perl-ext-common: default,clipboard
 
 !transparency
-URxvt.transparent: false
-URxvt*shading: 30
+URxvt.transparent: true
+URxvt*shading: 22
 
 ! Custom colourscheme, see http://terminal.sexy/ for more ideas.
 
