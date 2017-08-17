@@ -1,12 +1,20 @@
 ! font settings --------------------------------------------------------------
-
-Xft.autohint: true
-Xft.antialias: true
-Xft.hinting: true
-Xft.hintstyle: hintslight
-!Xft.dpi: 96
+Xft.dpi: 192
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
 Xft.rgba: rgb
-Xft.lcdfilter: lcddefault
+
+
+!Xft.autohint: true
+!Xft.antialias: true
+!Xft.hinting: true
+!Xft.hintstyle: hintslight
+!Xft.dpi: 96
+!Xft.rgba: rgb
+!Xft.lcdfilter: lcddefault
 
 ! xscreensaver ---------------------------------------------------------------
 
@@ -40,8 +48,8 @@ xscreensaver.passwd.thermometer.width:       8
 
 !URxvt.font: xft:Monospace:size=9
 !URxvt.boldFont: xft:Monospace:Bold:size=9
-URxvt.font: xft:DejaVu Sans Mono for Powerline:size=10.5
-URxvt.boldFont: xft:DejaVu Sans Mono for Powerline:Bold:size=10.5
+URxvt.font: xft:DejaVu Sans Mono:size=10.5
+URxvt.boldFont: xft:DejaVu Sans Mono:Bold:size=10.5
 URxvt.letterSpace: -2
 ! Add fallback fonts as laid out in `man 1 urxvt` under "font:" in the RESOURCES section
 
