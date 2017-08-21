@@ -4,3 +4,4 @@ touch rifle.conf
 delete
 touch rc.conf
 open_with nano
+open_with GDebi
