@@ -46,10 +46,8 @@ xscreensaver.passwd.thermometer.width:       8
 
 ! urxvt -------------------------------------------
 
-!URxvt.font: xft:Monospace:size=9
-!URxvt.boldFont: xft:Monospace:Bold:size=9
-URxvt.font: xft:DejaVu Sans Mono:size=10.5
-URxvt.boldFont: xft:DejaVu Sans Mono:Bold:size=10.5
+URxvt.font: xft:DejaVu Sans Mono:size=9.5
+URxvt.boldFont: xft:DejaVu Sans Mono:Bold:size=9.5
 URxvt.letterSpace: -2
 ! Add fallback fonts as laid out in `man 1 urxvt` under "font:" in the RESOURCES section
 
@@ -88,7 +86,7 @@ URxvt.perl-ext-common: default,clipboard
 URxvt.transparent: true
 URxvt*shading: 15
 
-! special
+! terminal colors
 *.foreground:   #ffffff
 *.background:   #000000
 *.cursorColor:  #cc00ff
@@ -126,11 +124,13 @@ URxvt*shading: 15
 *.color15:      #ccffff
 
 ! ------------------------------------------------------------------------------
-! ROFI Color theme
+! ROFI styling
 ! ------------------------------------------------------------------------------
 rofi.color-enabled: true
-rofi.color-window: #000000, #000000, #00d7ff
+rofi.color-window: #000000, #00afff, #00d7ff
 rofi.color-normal: #000000, #ffffff, #070707, #268bd2, #ffffff
 rofi.color-active: #000000, #268bd2, #070707, #268bd2, #205171
 rofi.color-urgent: #000000, #d700ff, #0c0c0c, #268bd2, #ffc39c
 rofi.hide-scrollbar: true
+rofi.bw: 4
+rofi.font: DejaVu Sans Mono 19
